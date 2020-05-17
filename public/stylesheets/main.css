@@ -1,0 +1,58 @@
+.thumbnail img{
+	width: 100% !important;
+}
+
+.thumbnail{
+	padding: 0;
+}
+
+.thumbnail .caption-full{
+	padding: 9px;
+	
+}
+.delete-form{
+	display: inline;
+}
+.list-group li a{
+	text-decoration: none;
+	color: #fff;
+}
+.color{
+	background-repeat: no-repeat; 
+	background-color: black !important;
+	background-image: url("https://images.unsplash.com/photo-1535846417087-ff0057791ecf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1432&q=80");
+	background-size: cover;
+	height: 400px;
+	color: #fff;
+}
+.container{
+	width: 75%;
+}
+.glyphicon{
+	padding-right: 10px;
+}
+
+#hr{
+	padding: 0;
+	margin: 5px 0;
+}
+.inline{
+	display: inline;
+}
+
+.pad{
+	margin:5px 10px;
+}
+.footer{
+	position: relative;
+	width: 100%;
+	z-index: 1;
+
+}
+
+.link{
+	margin-left: 15px;
+	margin-bottom: 10px;
+	color: steelblue;
+	font-weight: bold;
+}
