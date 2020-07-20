@@ -7,7 +7,7 @@ var User = require("../models/user");
 
 router.get("/", (req, res) => {
   // res.redirect("/campgrounds");
-  res.render("landing");
+  res.render("landing.ejs");
 });
 
 //============
