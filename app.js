@@ -40,6 +40,7 @@ mongoose
   });
 app.use(bodyParser());
 app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views"));
 
 app.use(express.static(__dirname + "/public"));
 app.use(methodOverride("_method"));
