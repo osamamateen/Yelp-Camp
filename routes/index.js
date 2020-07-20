@@ -6,8 +6,8 @@ var User = require("../models/user");
 //ROOT Route
 
 router.get("/", (req, res) => {
-  // res.redirect("/campgrounds");
-  res.render("landing.ejs");
+  res.redirect("/campgrounds");
+  // res.render("landing.ejs");
 });
 
 //============

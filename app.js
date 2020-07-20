@@ -22,6 +22,7 @@ var commentRoutes = require("./routes/comments"),
 //   useNewUrlParser: true,
 //   useUnifiedTopology: true,
 // });
+
 mongoose
   .connect(
     "mongodb+srv://dbUser:userpassword@cluster0.43bwy.mongodb.net/yelp_camp?retryWrites=true&w=majority",
@@ -39,7 +40,7 @@ mongoose
   });
 app.use(bodyParser());
 app.set("view engine", "ejs");
-app.set("views", __dirname + "/views");
+
 app.use(express.static(__dirname + "/public"));
 app.use(methodOverride("_method"));
 app.use(flash());
