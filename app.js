@@ -26,7 +26,7 @@ var commentRoutes = require("./routes/comments"),
 
 mongoose
   .connect(
-    "mongodb+srv://dbUser:userpassword@cluster0.43bwy.mongodb.net/yelp_camp?retryWrites=true&w=majority",
+    "mongodb+srv://user:password@cluster0.43bwy.mongodb.net/yelp_camp?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useCreateIndex: true,
