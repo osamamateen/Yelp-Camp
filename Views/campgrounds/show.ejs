@@ -33,10 +33,9 @@
       <br />
       <div class="well">
         <div>
-          <h4 class="inline">Comments</h4>
           <a
             href="/campgrounds/<%= campground._id%>/comments/new"
-            class="btn btn-primary inline pull-right"
+            class="btn btn-primary res-btn"
             >Add Comment</a
           >
         </div>
@@ -45,7 +44,7 @@
 					<hr>
 					
 				</div> -->
-
+        <h4>Comments</h4>
         <%campground.comments.forEach(function(comment){%>
         <div class="row">
           <div class="col-md-12">
