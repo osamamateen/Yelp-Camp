@@ -2,34 +2,6 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-3">
-      <p class="lead">YelpCamp</p>
-      <div class="list-group">
-        <% for(var i = 0 ; i<4; i ++) { %>
-        <li class="list-group-item">
-          <a href="/campgrounds/<%=camp[i]._id%>">
-            <div>
-              <div class="thumbnail">
-                <img src="<%= camp[i].image %>" />
-                <div class="caption">
-                  <h4><%=camp[i].name %></h4>
-                </div>
-                <div>
-                  <p>
-                    <a
-                      href="/campgrounds/<%=camp[i]._id%>"
-                      class="btn btn-xs btn-primary pad"
-                      >More info</a
-                    >
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </li>
-        <%} %>
-      </div>
-    </div>
     <a href="/campgrounds" class="link"> Go Back</a>
     <div class="col-md-9">
       <div class="thumbnail">
@@ -110,6 +82,34 @@
         <% }) %>
       </div>
     </div>
+    <!-- <div class="col-md-3">
+      <p class="lead">YelpCamp</p>
+      <div class="list-group">
+        <% for(var i = 0 ; i<4; i ++) { %>
+        <li class="list-group-item">
+          <a href="/campgrounds/<%=camp[i]._id%>">
+            <div>
+              <div class="thumbnail">
+                <img src="<%= camp[i].image %>" />
+                <div class="caption">
+                  <h4><%=camp[i].name %></h4>
+                </div>
+                <div>
+                  <p>
+                    <a
+                      href="/campgrounds/<%=camp[i]._id%>"
+                      class="btn btn-xs btn-primary pad"
+                      >More info</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <%} %>
+      </div>
+    </div> -->
   </div>
 </div>
 
